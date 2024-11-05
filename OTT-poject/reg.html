@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+<div class="wrapper">
+    <div class="logo">
+        <img src="icon.png" alt="">
+    </div>
+    <div class="text-center mt-4 name">
+      <br><h2>Register Here!!</h2>
+    </div>
+    <form class="p-3 mt-3" id="myform">
+        <div class="form-field d-flex align-items-center">
+            <span class="far fa-user"></span>
+            <input type="text" name="name" id="name" placeholder="Username" >
+        </div>
+        <div class="form-field d-flex align-items-center">
+          <span class="fas fa-key"></span>
+          <input type="number" name="number" id="number" placeholder="Mobile No"/>
+           </div>
+        <div class="form-field d-flex align-items-center">
+          <span class="fas fa-key"></span>
+          <input type="email" name="email" id="email" placeholder="Email" />
+      </div>
+        <div class="form-field d-flex align-items-center">
+            <span class="fas fa-key"></span>
+            <input type="password" name="pwd" id="pwd" placeholder="Create Password" />
+        </div>
+        
+           <div class="form-field d-flex align-items-center">
+          <span class="fas fa-key"></span>
+          <input type="password" name="pwd" id="pwd" placeholder="Confirm Password"/>
+           </div>
+          <input type="submit" class="btn mt-3"  value="Register"/>
+          <p id="errormassage" class="error"></p> 
+    </form>
+    <script type="text/javascript" src="reg.js"></script>
+    <div class="text-center fs-6">
+        <a href="#">Forget password?</a> or <a href="login.html">Login</a>
+    </div>
+</div>
+</body>
+</html>
